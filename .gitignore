@@ -1,3 +1,7 @@
 #variables de entorno
 
 .env
+
+#packages lock
+
+package-lock.json
