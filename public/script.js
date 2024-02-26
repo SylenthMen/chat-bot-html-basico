@@ -35,7 +35,7 @@ function sendMessage() {
     const message = input.value.trim();
 
     if (message) {
-        fetch('chat-message', {
+        fetch('/chat-message', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
