@@ -1,5 +1,8 @@
 {
     "scripts": {
-      "vercel-build": "node ./server.js"
+        "vercel-build": "node ./server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
     }
-  }
+}
